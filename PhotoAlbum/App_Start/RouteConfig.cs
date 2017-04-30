@@ -11,6 +11,7 @@ namespace PhotoAlbum
     {
         public static void RegisterRoutes(RouteCollection routes)
         {
+            Console.WriteLine("Hello, world");
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
